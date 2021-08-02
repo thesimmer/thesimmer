@@ -1,0 +1,119 @@
+
+#iframeHolder .wrap, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial, Helvetica', sans-serif;
+  text-align: justify;
+}
+
+#iframeHolder img {
+  width: 300px;  
+  height: auto;  
+  text-align: center;  
+  padding: 15px;
+  object-fit: cover;
+  position: relative;
+  left: 25%;
+}
+
+#iframeHolder .header {
+  color: #000;
+  margin-top: 30%;
+  text-align: center;
+  margin-bottom: 0;
+  padding:10em;
+  margin-top: 1px;
+  float: right;
+}
+
+#iframeHolder .header h1,h2,h3,h4 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#iframeHolder .content {
+  -webkit-column-count: 1; /* Chrome, Safari */
+  column-count: 1;
+  -webkit-column-gap: 30px; /* Chrome, Safari */
+  text-align: justify;
+  padding:10em;
+  background-color: #ffffff;
+  font-family: Georgia, serif;
+  padding-top: 10px;
+}
+
+#iframeHolder .subhead {
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+#iframeHolder .content h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+#iframeHolder .content h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+#iframeHolder .footer {
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+#iframeHolder .footer p {
+ color: black;
+ text-align: justify;
+ padding:10%;
+}
+
+#iframeHolder .subhead h4 {
+  margin-top: 1px;
+  text-align: center;
+}
+
+#iframeHolder .table, th, td {
+  border: 1px solid black;
+  text-align: justify;
+}
+
+#iframeHolder p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 2em;
+}
+
+#iframeHolder a {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  text-decoration: solid;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+#iframeHolder q {
+  font-weight: lighter;
+}
+

@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Simmer Magazine</title>
+    <!--bs, jquery-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--site fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700:100,300,400,500,700,900|Lekton:700:100,300,400,500,700,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700:100,300,400,500,700,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--body font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!--future and art nouveau fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!--regency font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <!--victorian font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
+    <!--psychedelic font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <!--Grunge font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    <!--code style font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- articles fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700:100,300,400,500,700,900|Lekton:700:100,300,400,500,700,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700:100,300,400,500,700,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=RocknRoll+One&family=Sigmar+One&display=swap" rel="stylesheet">
+    <!--Font magazine logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!--Missing material icons-->
+    <script src="https://kit.fontawesome.com/70065d05b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    <!--stylesheet-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/woah.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-auto meta_data__button" id="meta_data__button">
+                <span id="meta_data__button_show">
+                    Show meta
+                </span>
+                <span class="d-none" id="meta_data__button_hide">
+                    Hide meta
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="wrapper">
+        <!-- dark navbar -->
+        <nav id="top" class="navbar navbar-expand-md navbar-light bg-light disable-select">
+            <a class="navbar-brand" href="index.html">The Simmer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <!-- first dropdown menu -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown active" id="commandList">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Sims and Psychology</a>
+                        <div id="commandMenu" class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#" id="load_psychologytoday">The Sims: Suburban Rhapsody</a>
+                            <a class="dropdown-item" href="#" id="load_gamestudies">Self-Portrayal in a Simulated Life: Projecting
+                                Personality and Values in ©The Sims 2</a>
+                            <a class="dropdown-item" href="#" id="load_wired_2">The Sims Made Me Realize I'm Ready for More In
+                                Life</a>
+                            <!--<a class="dropdown-item editOnly d-none" href="#" role="button" data-toggle="modal" data-target="#EntityUpload">Importa entità</a>-->
+                        </div>
+                    </li>
+                </ul>
+                <!-- second dropdown menu -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown active" id="commandList">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Sims and Content Creation</a>
+                        <div id="commandMenu" class="dropdown-menu" aria-labelledby="dropdown01">
+
+                            <a class="dropdown-item" href="#" id="load_wired">Inside the World of Young Black Sims Content
+                                Creators</a>
+                            <a class="dropdown-item" href="#" id="load_metropolis">For a Community of Gamers, The Sims Is a Gateway to
+                                the Real World of Architecture</a>
+                            <a class="dropdown-item" href="#" id="load_venturebeat">EA’s Laura Miele: Making games is hard, and it
+                                keeps changing</a>
+
+                            <!--<a class="dropdown-item editOnly d-none" href="#" role="button" data-toggle="modal" data-target="#EntityUpload">Importa entità</a>-->
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- third dropdown menu -->
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown active" id="commandList">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">The Sims and Society</a>
+                        <div id="commandMenu" class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#" id="load_theguardian">My land of make believe: life after The Sims</a>
+                            <a class="dropdown-item" href="#" id="load_thehindi">The Sims' turns 20: Why the social simulation game is
+                                more culturally relevant than ever</a>
+                            <a class="dropdown-item" href="#" id="load_gamespot">The Most Influential Games Of The 21st Century: The
+                                Sims</a>
+
+                            <!--<a class="dropdown-item editOnly d-none" href="#" role="button" data-toggle="modal" data-target="#EntityUpload">Importa entità</a>-->
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+        <!--cards of issues-->
+        <div class="container-nav" id="issues">
+            <div class="row issue__row">
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" id="issue1" src="assets/images/psychology.png" alt="Card image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-dark">The Simmer</h5>
+                            <p class="card-text" style="color: #23bb24">The Sims and Psychology</p>
+                            <p class="card-text" style="color: #23bb24; writing-mode: vertical-lr;">Issue #1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" id="issue2" role="button" src="assets/images/content.png" alt="Card image"
+                            data-target="#iframeHolder">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">The Simmer</h5>
+                            <p class="card-text" style="color:#e00874">The Sims and Content Creation</p>
+                            <p class="card-text" style="writing-mode: vertical-lr; color: #e00874">Issue #2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" id="issue3" role="button" src="assets/images/society.png" alt="Card image"
+                            data-target="#iframeHolder">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-dark">The Simmer</h5>
+                            <p class="card-text" style="color: #68bf9f">The Sims and Society</p>
+                            <p class="card-text" style="color:#68bf9f; writing-mode: vertical-lr;">Issue #3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end cards -->
+            <!--style nav-->
+            <div class="container-nav">
+                <div class="container-fluid">
+                    <div class="row w-100">
+                        <div class="col-auto">
+                            <h1>Styles</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-lg-12">
+                        <nav class="nav">
+                            <a id="default" class="nav-link"
+                                style="font-family:'Press Start 2P', cursive; font-size: 18px;" aria-current="page"
+                                href="#">Default</a>
+                            <a id="reg" class="nav-link" style="font-family: 'Playball', cursive; font-size: 32px;"
+                                href="#">Regency</a>
+                            <a id="vic" class="nav-link"
+                                style="font-family: 'Grenze Gotisch', cursive; font-size: 32px;" href="#">Victorian</a>
+                            <a id="artnv" class="nav-link" style="font-family:'Lobster Two', cursive; font-size: 32px;"
+                                href="#">Art
+                                Nouveau</a>
+                            <a id="psy" class="nav-link" style="font-family: 'Mystery Quest', cursive; font-size: 32px;"
+                                href="#">Psychedelic</a>
+                            <a id="gr" class="nav-link" style="font-family: 'Monofett', cursive; font-size: 32px;"
+                                href="#">Grunge</a>
+                            <a id="futr" class="nav-link" style="font-family: 'Tourney', cursive; font-size: 32px;"
+                                href="#">Futuristic</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="d-none row w-100 justify-content-center issue__nav">
+                    <div class="col-4 col-md-2 issue__nav_item text-center" id="issue__nav_prev">
+                        Previous
+                    </div>
+                    <div class="col-4 col-md-2 issue__nav_item text-center" id="issue__nav_next">
+                        Next
+                    </div>
+                </div>
+            </div>
+            <!--end style nav-->
+
+              <div class="row w-100 justify-content-center m-0">
+                <div class="d-none col-12 col-md-3" id="meta__div">
+                    <div class="row justify-content-between meta__nav">
+                        <div class="col-4 text-center meta__nav_item active" id="meta__nav_people">
+                            People
+                        </div>
+                        <div class="col-4 text-center meta__nav_item" id="meta__nav_places">
+                            Places
+                        </div>
+                        <div class="col-4 text-center meta__nav_item" id="meta__nav_concepts">
+                            Concepts
+                        </div>
+                    </div>
+                    <div class="d-none row meta__div_content" id="meta__div_content">
+                       <!--- Meta is loaded here -->
+                    </div>
+                </div>
+                <div class="h-100 col-12 fs-12" id="iframeHolder">
+                    <!--articles loaded here -->
+                </div>
+              </div>
+</div>
+                </div>
+            </div>
+     <!--start button nav-->
+        <div class="card">
+            <div class="card-body">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="hide_on_scroll" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link woah pulse infinite" id="pills-letter-tab" data-toggle="pill"
+                            href="#pills-letter" role="tab" aria-controls="pills-letter" aria-selected="true">Letter from the Editors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-documentation-tab" data-toggle="pill" href="#pills-documentation" role="tab" aria-controls="pills-documentation" aria-selected="false">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-disclaimer-tab" data-toggle="pill" href="#pills-disclaimer" role="tab" aria-controls="pills-disclaimer" aria-selected="false">Disclaimer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contacts-tab" data-toggle="pill" href="#pills-contacts" role="tab" aria-controls="pills-contacts" aria-selected="false">Contacts</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" role="button" data-target="#about" aria-expanded="false">About</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-letter" role="tabpanel" aria-labelledby="pills-letter-tab">
+                        <h1>Letter from the Editors</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2>Welcome, Simmers!</h2>
+                                <p>Since all the printed copies of our latest issues got sold out immediately as collectors ran to the kiosque to buy them, The Simmer Magazine editorial board has created three SPECIAL online issues based on the printed magazines. </p>
+                                <p><b>Why are these issues SPECIAL?</b></p>
+                                <ul>
+                                    <li><b>Each issue focuses on a specific topic to make sure you learn everything about The Sims! Try browsing the data viewer on the left to discover interesting connections! </b></li>
+                                    <li><b>Are you a future-loving Simmer? Are you more like a Victorian lady? No problem! You can switch between historical typographical styles, hope you’ll find your favourite that suits you the most! </b></li>
+                                </ul>
+                                <p>We hope you’ll enjoy our special edition that we created with love. </p>
+                                <p><b>Wishing you a great time on The Simmer Magazine Online, </b></p>
+                                <p style="font-family:'Playball', cursive; font-size:24px;"><i>The Editors of The Simmer Magazine</i></p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/images/group.png" style='height: 100%; width: 100%; object-fit: contain'>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-documentation" role="tabpanel" aria-labelledby="pills-documentation-tab">
+                        <h1>Documentation</h1>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Overview
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>The Simmer Magazine examines the role of the popular video game from different points of view. The three issues focus on how The Sims is connected to <b>psychology, custom content creation and society.</b></p>
+                                        <p>The Magazine is based on a specific concept called <q>Leisurely Luscious Literary Lens.</q> The table below summarizes the concept and its implementation in our project.</p>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="1">LLLL</th>
+                                                    <th colspan="1">The Simmer</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><b>Leisure:</b> trivia, silly and funny aspects.</td>
+                                                    <td>The Sims games are not only the topic of the issues, but we created our own avatars and the magazine covers using the game and included illustrations that match the theme. The letter from the editors creates a story around the Magazine while it also helps the user understand the main features of the site. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Luscious:</b> interesting, rich comparisons.</td>
+                                                    <td>The articles contain abundant information about people, places and concepts. Moreover, they focus on differnt aspects of how the game influences psychology, society and content creation.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Literary:</b> possibility of analysis</td>
+                                                    <td>All the information can be easily read and searched through the metadata viewer widget to allow interpretation.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Lens:</b> possibility of evaluation, side-by-side comparison</td>
+                                                    <td>The issues are divided based on their main topic but they are all connected by the focus of the magazine, The Sims video games. The metadata viewer, the magazine covers, and the table of contents allow the user to explore connections and deepen their knowledge about the topic.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <p>The website enables the user to explore the issues of the magazine which are positioned at a central place for visibility.
+                                            The user can switch between the articles in different historical typographical styles, namely <b> Regency (before 1800), Victorian (XIX century), Art Nouveau (first half of XX century), Psychedelic (second half of XX century), Grunge (late XX century, beginning of XXI century), and Futuristic (2030s) styles</b> and an additional default style, using the navigation bar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Layout and Typography
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <!--layout and typography-->
+                                        <div class="container collapse" id="collapseTwo">
+                                            <div class="card-body">
+                                                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-regency-tab" data-toggle="pill" href="#pills-regency" role="tab" aria-controls="pills-regency" aria-selected="true">Regency</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-victorian-tab" data-toggle="pill" href="#pills-victorian" role="tab" aria-controls="pills-victorian" aria-selected="false">Victorian</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-artnouveau-tab" data-toggle="pill" href="#pills-artnouveau" role="tab" aria-controls="pills-artnouveau" aria-selected="false">Art Nouveau</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-psychedelic-tab" data-toggle="pill" href="#pills-psychedelic" role="tab" aria-controls="pills-psychedelic" aria-selected="false">Psychedelic</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-grunge-tab" data-toggle="pill" href="#pills-grunge" role="tab" aria-controls="pills-grunge" aria-selected="false">Grunge</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="pills-futuristic-tab" data-toggle="pill" href="#pills-futuristic" role="tab" aria-controls="pills-futuristic" aria-selected="false">Futuristic</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content" id="pills-tabContent">
+                                                    <div class="tab-pane fade show active" id="pills-regency" role="tabpanel" aria-labelledby="pills-regency-tab">
+                                                        <h1>Neoclassical and Regency graphic design</h1>
+                                                        <h3><i><blockquote>A purity of form with sparse pages, generous margins and line-spacing, and severe geometric types; this functional purity avoided any distractions from the act of reading.</blockquote></i></h3>
+                                                        <a href="https://www.britannica.com/art/graphic-design/Neoclassical-graphic-design target=_blank">Source</a>
+                                                        <p>Second half of the 18th century, the designers took inspiration from Classical art. This interest was inspired by the archaeological finds in sites situated in places such as Greece, Italy and Egypt. John Baskerville, an english designer of that period, defined the shapes of neoclassical typography: the fonts had sharper serifs and more contrast between thick-and-thin strokes than Rococo typefaces, and his letters had a more vertical, geometric axis.</p>
+
+                                                        <img src="assets/images/image2.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 40%">
+                                                        <img src="assets/images/image19.png" style="display: block; margin-left: auto; margin-right: auto; width: 40%">
+                                                        <p>In Italy, in late 18th century/early 19th century, Giambattista Bodoni, a printer that worked at the Royal Press of Parma, published the Manuale Tipografico (1788), in which he declared his design statements and ideals on Neoclassicism. Bodoni drew inspiration from Baskerville as he evolved his preferences from Rococo-derived designs toward modern typefaces. He achieved a purity of form with sparse pages, generous margins and line-spacing, and severe geometric types; this functional purity avoided any distractions from the act of reading. </p>
+
+                                                        <p>Also the books designed by the Didot family of printers in France, shared the same purity: minimal decoration, generous margins, and simple linear borders. </p>
+
+                                                        <p>Thus, the font-family used are, in fact Bodoni and Baskerville, the shapes are regular, straight, the margins and the padding are generous and the serifs are sharp. The background color, a gentle light green, reminds the color of the wallpaper used in Regency and Neoclassical villas and palaces. </p>
+                                                        <img style="display: block; margin-left: auto; margin-right: auto; width: 40%" src="assets/images/image4.png">
+                                                        <img style="display: block; margin-left: auto; margin-right: auto;width: 40%" src="assets/images/image16.png">
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-victorian" role="tabpanel" aria-labelledby="pills-victorian-tab">
+                                                        <h1>Victorian Typography</h1>
+                                                        <h3>19th century</h3>
+                                                        <h3><i><blockquote>The distinctive Victorian style of layout – extreme variations of type size and weight crammed within the page format was an invention of expedience, allowing the printer to utilize every inch of precious space.</blockquote></i></h3>
+                                                        <a href="https://visualartsdepartment.wordpress.com/the-victorian-era/?fbclid=IwAR3gXnwHrl7_7K9nX7E0DaYH24MQ2WYZ3FfkKKo_lGb6vvb007IsiLfFPQc target=_blank">Source</a>
+                                                        <h2>Background</h2>
+        <p>XIX century Industrial revolution and technical inventions have revolutionized printing and press with the appearance of the Lynotype and the Monotype machines. The Daily Telegraph, published since 1855, is an important newspaper in the Victorian era. As advertising became more wide-spread, large-scale, extra-bold fonts have become more popular for headlines and titles.
+                                                        </p>
+
+                                                        <h2>Layout and typographical characteristics</h2>
+                                                        <p>Victorian-era newspapers were black and white and usually had
+                                                            a broadsheet format with
+                                                            six or seven columns of text printed in narrow fonts.
+                                                            Cross-headings, brief paragraphs,
+                                                            informative headlines, vivid illustrations, attractive
+                                                            design, better format and
+                                                            newsprint, larger type and greater use of the front page for
+                                                            font have become more
+                                                            wide-spread.
+                                                        </p>
+        <a data-pin-do="embedBoard" data-pin-board-width="900" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.it/miniii/xix-century-typography/"></a>
+
+                                                        <h2>Typefaces </h2>
+                                                        <p>Didone typefaces such as the Didot and Bodoni font families
+                                                            are the most recognizable
+                                                            fonts from the 19th century. Fat Face was created in the
+                                                            19th century as well; it
+                                                            resembles the Bodoni font family, however it is considerably
+                                                            bolder, attracting the gaze
+                                                            of the reader on the headline. Narrow and extra-narrow
+                                                            typefaces were popular in print as
+                                                            their use allowed them to fit more content on a page.
+                                                        </p>
+                                                        <h2>Inspiration</h2>
+                                                        <p>The Daily Telegraph quickly became one of the most popular
+                                                            newspapers after it was first
+                                                            published in 1855. Browsing the Telegraph archive, the
+                                                            articles from the Victorian era
+                                                            bear all the characteristics of the 19th newspaper
+                                                            typography and layout.
+                                                            The articles are divided into at least three or four columns
+                                                            and the narrow fonts fill the
+                                                            whole page, leaving only small margins. The pages are black,
+                                                            brown and white and from 1855
+                                                            we can find hand-drawn illustrations that were not
+                                                            necessarily used
+                                                            for aesthetics but for practical reasons such as the first
+                                                            drawing to appear in the
+                                                            newspaper which shows a murder suspect to facilitate police
+                                                            investigation.
+                                                        </p>
+                                                        <h2>Considerations</h2>
+                                                        <p>I tried to recreate a historically accurate effect while
+                                                            working on the CSS. The margins
+                                                            are set to 0 to reflect the narrow margins of the
+                                                            newspapers. The aspect ratio is set to
+                                                            1.255% based on the British broadsheet size that they used
+                                                            to print
+                                                            newspapers. The headings are set using the Abril Fatface
+                                                            font based on the Victorian trend
+                                                            of using fat fonts for emphasis. The text is set using the
+                                                            Antic Didone font, which is a
+                                                            historic and narrow font as I have mentioned above. Simple,
+                                                            black lines divide the title and the article, as it is seen
+                                                            in the example pages from the
+                                                            XIX century. An initial drop cap letter illustrates the
+                                                            articles as it was customary
+                                                            during history. The background color is a
+                                                            black-brown-tan-white gradient that I obtained
+                                                            using a color picker on the scanned newspaper pages. Since
+                                                            images were not often used
+                                                            in newspapers in that era, I've added a sepia filter to
+                                                            them. The filter makes them
+                                                            resemble hand-drawn illustrations from the Victorian era.
+                                                        </p>
+                                                        <div class="row">
+                                                            <div class="column" id="side">
+                                                                <img src="https://www.gale.com/binaries/content/gallery/gale-us-en/look-inside-images/primary-sources/newsvault/the-telegraph-historical-archive-1855-2000/gps_newsvault_the_telegraph_academic_lookinside2.jpg"
+                                                                    alt="" style="width:100%">
+                                                            </div>
+                                                            <div class="column" id="side">
+                                                                <img src="https://www.gale.com/binaries/content/gallery/gale-us-en/look-inside-images/primary-sources/newsvault/the-telegraph-historical-archive-1855-2000/gps_newsvault_the_telegraph_academic_lookinside3.jpg"
+                                                                    alt="" style="width:100%">
+                                                            </div>
+                                                            <div class="column" id="side">
+                                                                <img src="https://www.gale.com/binaries/content/gallery/gale-us-en/look-inside-images/primary-sources/newsvault/the-telegraph-historical-archive-1855-2000/gps_newsvault_the_telegraph_academic_lookinside4.jpg"
+                                                                    alt="" style="width:100%">
+                                                            </div>
+                                                        </div>
+
+                                                        <h2>Sources</h2>
+                                                        <ol>
+                                                            <li><a href="http://thinkingwithtype.com/misc/type_lecture/Type_Lecture.pdf"
+                                                                    target="_blank">A brief history of typefaces</a>
+                                                            </li>
+                                                            <li><a href="https://blog.spoongraphics.co.uk/articles/a-history-of-typeface-styles-type-classification"
+                                                                    target="_blank">A History of Typeface Styles & Type
+                                                                    Classification</a></li>
+                                                            <li><a href="https://www.gale.com/binaries/content/assets/gale-us-en/primary-sources/intl-gps/intl-gps-essays/full-ghn-contextual-essays/ghn_essay_bln_king3_website.pdf"
+                                                                    target="_blank">British Newspapers 1860-1900</a>
+                                                            </li>
+                                                            <li><a href="http://guity-novin.blogspot.com/2012/04/modern-newspaper-magazine-layouts.html#Six"
+                                                                    target="_blank">History of Layout Design and Modern
+                                                                    Newspaper & Magazins></a></li>
+                                                            <li><a href="https://www.gale.com/intl/c/the-telegraph-historical-archive"
+                                                                    target="_blank">The Telegraph Historical Archive
+                                                                    1855–2016</a></li>
+                                                            <li><a href="https://www.britannica.com/technology/typography/History-of-typography"
+                                                                    target="_blank">Typography - History of
+                                                                    typography</a></li>
+                                                            <li><a href="http://victorian-era.org/victorian-era-newspapers.html"
+                                                                    target="_blank">Victorian Era Newspapers: Various
+                                                                    sections, Layouts and Templates</a>
+                                                            </li>
+                                                            <li><a href="https://indesignskills.com/inspiration/vintage-fonts/"
+                                                                    target="_blank">Vintage Fonts: The Best Vintage
+                                                                    Fonts by Historical Era</a></li>
+                                                        </ol>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-artnouveau" role="tabpanel" aria-labelledby="pills-artnouveau-tab">
+                                                        <h1>First half of 20th century - Background</h1>
+                                                        <h3>-We all have a different personality, character. Now all the
+                                                            letters have individuality,
+                                                            charisma and personality.-</h3>
+
+                                                        <p>In the first half of the 20th century, with the emergence of
+                                                            new aesthetic trends in the
+                                                            world and, in other words, the advantages of mechanical
+                                                            developments, the understanding of
+                                                            design gained a new dimension.
+                                                            With modernism, which emerged as a reaction to the revival
+                                                            of the concept of craft and
+                                                            mechanization, which lost its value in the industrial
+                                                            revolution, and increased its
+                                                            influence in the middle of the 20th century, new concepts in
+                                                            the field of design emerge.
+                                                            The “Art and Craft” movement can be seen as the beginning of
+                                                            modern art in this period.
+                                                            “The artists of the 20th century had to discover something.
+                                                            To get attention, great
+                                                            artists of the past had to do something that had never been
+                                                            tried before, instead of
+                                                            trying to achieve their admirable mastery” (Gombrich 2004,
+                                                            p.563)
+                                                            In 1897, a group of young artists led by Gustav Klimt in
+                                                            Austria created the Vienna
+                                                            Secession, breaking away from the Künstlerhaus. These
+                                                            artists and architects eschewed
+                                                            academic conventions in favor of innovative ways of
+                                                            expressing themselve
+                                                            Red, blue, and white flat shapes are defined by horizontal,
+                                                            vertical, and circular lines.
+                                                        </p>
+
+                                                        <img src="assets/images/artno1.png"
+                                                            style="display: block; margin-left: auto; margin-right: auto; width: 50%">
+                                                        <br>
+
+                                                        <p>Every movement in the first half of the 20th century has
+                                                            created the characteristic
+                                                            typography of this period. For example in Germany Peter
+                                                            Behrens played major role in
+                                                            design and typography. Behrens’s work for AEG was a
+                                                            forerunner of a major area of graphic
+                                                            design in the second half of the 20th century. He led the
+                                                            creation of a corporate identity
+                                                            through a program using trademarks, typefaces, formats, and
+                                                            color in a consistent,
+                                                            controlled manner.</p>
+
+                                                        <p> We see that Cassandre uses modulated color planes derived
+                                                            from figurative geometry and
+                                                            Cubism in his poster designs. Cassandre has also used
+                                                            airbrushed mixes to soften hard
+                                                            geometry. The hardness of the lines softens with the color
+                                                            palette used.</p>
+
+
+                                                        <img src="assets/images/image5.jpg"
+                                                            style="display: block; margin-left: auto; margin-right: auto; width: 50%">
+                                                        <br>
+
+                                                        <h2>Art Nouveau and Geometric shapes</h2>
+
+                                                        <img src="assets/images/artnouveau.jpg"
+                                                            style="display: block; margin-left: auto; margin-right: auto; width: 50%">
+                                                        <br>
+
+                                                        <p>The ornate Art Nouveau design style first appeared in
+                                                            late-nineteenth-century France and
+                                                            quickly spread throughout Europe, with the style being used
+                                                            in art, architecture, posters,
+                                                            jewelry, furniture, and textiles.</p>
+
+                                                        <p>Toward the close of the nineteenth century, some artists felt
+                                                            constrained by the
+                                                            long-established ‘academic art' approach. Initially, a few
+                                                            painters in France broke away
+                                                            from the previous academic style's rigors and began to make
+                                                            art that explored organic,
+                                                            highly ornate shapes in a more stylized and sensual way.</p>
+
+                                                        <p> When the minimalist lines of modernism combined with art
+                                                            nouveau, a great trend emerged.
+                                                        </p>
+                                                        <img src="assets/images/artno.png"
+                                                            style="display: block; margin-left: auto; margin-right: auto; width: 50%">
+                                                        <br>
+
+                                                        <p>Art Nouveau is a maximalist design style, so aim to fill any
+                                                            white space on your layout
+                                                            with decorative elements like borders, frames, and dividers.
+                                                        </p>
+
+                                                        <p> To recap, authentic Art Nouveau graphic art and illustration
+                                                            is defined by: <br>
+                                                            organic, curved lines and graphics, inspired by natural
+                                                            forms like plants and flowers<br>
+                                                            symmetrical layouts and heavy embellishment<br>
+                                                            earthy, nature-inspired colours<br>
+                                                            romantic, often female, subjects, inspired by classical
+                                                            mythology<br>
+                                                            hand-drawn, rounded typography, which is often placed inside
+                                                            decorative banners or
+                                                            borders<br> </p>
+
+                                                        <h3> Color Palette of 1930's style </h3>
+
+                                                        <img src="assets/images/palette.png"
+                                                            style="display: block; margin-left: auto; margin-right: auto; width: 50%">
+                                                        <br>
+
+
+                                                        <h2>Typography</h2>
+                                                        <h4>Oranienbaum</h4>
+                                                        <p> The font Oranienbaum, is a modern high contrast Antiqua with
+                                                            well-defined, recognizable
+                                                            features. Based on the architecture of classic Antiqua
+                                                            fonts, such as Bodoni, Oranienbaum
+                                                            is typical of the typefaces from the first quarter of the
+                                                            20th century: pronounced serifs,
+                                                            contrasting geometry, and an interplay of right angles and
+                                                            flowing lines. The font is well
+                                                            suited for both headlines and body text. It is one of the
+                                                            fonts that go best with the Art
+                                                            Nouveau style. <br>It was designed through a collaboration
+                                                            of Oleg Pospelov as the main
+                                                            type designer, with Jovanny Lemonad as art director,
+                                                            technical engineer and publisher.</p>
+
+                                                        <h4>Josefin Sans</h4>
+                                                        <p>The idea of this typeface is to be geometric, elegant, with a
+                                                            vintage feeling, for use at
+                                                            larger sizes. It is inspired by geometric sans serif designs
+                                                            from the 1920s. The x-height
+                                                            is half way from baseline to cap height, an unusual
+                                                            proportion.</p><br>
+
+                                                        <h4>Smart Frocks NF Regular</h4>
+                                                        <p>Reminiscent of 1920s London window style, this font is
+                                                            combined with Art Nouveau.</p>
+
+                                                        <h1>Sources</h1>
+
+                                                        <a href="https://en.wikipedia.org/wiki/Art_Nouveau">
+                                                            <li>https://en.wikipedia.org/wiki/Art_Nouveau </li>
+                                                        </a>
+                                                        <a
+                                                            href="https://design.tutsplus.com/articles/what-is-art-nouveau--cms-31579">
+                                                            <li> https://design.tutsplus.com/articles/what-is-art-nouveau--cms-31579
+                                                            </li>
+                                                        </a>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-psychedelic" role="tabpanel"
+                                                        aria-labelledby="pills-psychedelic-tab">
+                                                        <h1>Second half XX century -psychedelic style</h1>
+<h3><i><blockquote>Consider some of the primary attributes of psychedelic art: fantastic subject matter, kaleidoscopic and spiral patterns, bright color, extreme detail, groovy typography.</blockquote></i></h3>
+<a href="https://en.99designs.it/blog/design-history-movements/tripping-history-psychedelic-design/?fbclid=IwAR3wIKuO6DF4GD_k5LyGgzYLcbE6k3rGZ7B0mSNp6lztGNR2Le55Dm_S8Es target=_blank">Source</a>
+<p>The psychedelic movement is one of the most indicative
+                                                            movements developed in the second
+                                                            half of the XX century. It started in the mid <b>1960’s
+                                                            </b>and had an effect on many
+                                                            aspects of popular culture. The term “psychedelic” refers to
+                                                            drugs that were popular with
+                                                            the youth culture of the time. This movement influenced not
+                                                            only art and music, but also
+                                                            the style of dressing, literature and philosophy. The
+                                                            posters of the rock concerts can
+                                                            visually express at best the feeling of tripping out. The
+                                                            visual motifs of psychedelic art
+                                                            include Art Nouveau-inspired curvilinear shapes, illegible
+                                                            hand-drawn type, and intense
+                                                            optical colour vibration inspired by the pop art movement.
+                                                        </p>
+
+                                                        <p>Use of abstracted curvilinear shapes, clashing colours,
+                                                            hard-to-read fonts. Rarely used
+                                                            in today’s designs, the trippy posters of the 60's are the
+                                                            most easily recognizable
+                                                            contribution of the Psychedelic style.</p>
+                                                        <img src="assets/images/image10.jpg" />
+                                                        <p>The colors used are flash, intense and hard-to-read, as the
+                                                            curvilinear fonts used:
+                                                            namely Sigmar One, and RocknRoll One, which recalls at best
+                                                            the calligraphy and fonts used
+                                                            in 60’s psychedelic posters. </p>
+
+                                                        <h4>To Recap, the main characteristics of the Psychedelic
+                                                            graphic design style are…</h4>
+                                                        <ul>
+                                                            <li>influenced by the prevalence of hallucinatory drugs
+                                                            </li>
+                                                            <li>featuring abstract swirls of intense color </li>
+                                                            <li>curvilinear calligraphy reminiscent of Art Nouveau </li>
+                                                            <li>intense optical colour vibration</li>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-grunge" role="tabpanel"
+                                                        aria-labelledby="pills-grunge-tab">
+                                                        <h1>GRUNGE TYPOGRAPHY</h1>
+                                                        <h3>end of 20th century - beginning of 21th century</h3>
+                                                        <h3><i><blockquote>Things were messy then. And type design was messy, too. Words were splayed and chaotic, letters blurred. Textures were thick and heavy. Concert posters looked like someone had splattered paint on paper and then scratched out band names.</blockquote></i></h3>
+                                                        <a href="https://www.theawl.com/2012/08/the-rise-and-fall-of-grunge-typography/?fbclid=IwAR1H9o-cViMA9bW_LPOd0L-BGgBsVz9C8BFciC2vUYe649Nl-jnjNwQbFo0 target=_blank">Source</a>
+                                                        <h2>Background</h2>
+                                                        <p>The end of the 20th century brought about substantial changes
+                                                            in typography and graphic
+                                                            design. First, the launch of the first Macintosh computer in
+                                                            1980 has led to the creation
+                                                            of postscript and pixel-based fonts with the aim of
+                                                            resolving typographical problems that
+                                                            arose during the transition to digital. Second, as graphic
+                                                            designer Paul Rand has
+                                                            expressed the importance of aesthetics in graphic design,
+                                                            the importance of both function
+                                                            and form have become the main approach in present days:
+                                                            <q>design should be both beautiful
+                                                                and functional</q>.
+                                                        </p>
+                                                        <h2>Typographical characteristics</h2>
+                                                        <p>Postscript was created to overcome problems that arose during
+                                                            printing by creating a
+                                                            bitmap of the letters. Compared to traditional typefaces,
+                                                            these letters appear LARGER,
+                                                            have an INCREASED X-HEIGHT. Smaller case letters appear more
+                                                            rounded and open. Many
+                                                            graphic designers have shaped the typographical trends of
+                                                            the era that constitute the
+                                                            basis of postmodern typefaces. Dutch typographer, Wim
+                                                            Crouwel paired extreme, particular
+                                                            fonts (e.g. for headings) with easily-readable SANS SERIF
+                                                            fonts, which have become common
+                                                            practice. DRAMATIC TYPOGRAPHY has become a characteristic of
+                                                            postmodern typography and it
+                                                            includes the pairing of fun, unique fonts with
+                                                            easily-readable sans serif fonts and/or
+                                                            increasing/decreasing FONT SIZE and POPS OF COLOR. He also
+                                                            experimented with the GRID
+                                                            system which had already gained popularity in the previous
+                                                            decades as it is the basic
+                                                            element of the Swiss Design style. GRID SYSTEMS along with
+                                                            clear GEOMETRICAL FORMS have
+                                                            gained popularity that match the MINIMALISM that define this
+                                                            era.
+                                                            Along with minimalism, form and functionality, another
+                                                            important principle is THE USE OF
+                                                            WHITESPACE. Vector illustrations, icons and textures are
+                                                            used to decorate this space.
+                                                        </p>
+                                                        <a data-pin-do="embedBoard" data-pin-board-width="900" data-pin-scale-height="120" data-pin-scale-width="115" href="https://www.pinterest.it/miniii/late-20th-centuryearly-21st-century-typography/"></a>
+                                                        <h2>Typefaces </h2>
+                                                        <p>The 90s and the early 2000s brought about the popularity of
+                                                            simple, easily readable sans
+                                                            serif fonts such as FUTURA, GOTHAM, AKKURAT AND CIRCULAR.
+                                                            REPLICA is another example
+                                                            notable for the fact that an intrical digital grid was
+                                                            developed for this font. Another
+                                                            minimalistic font is SAN FRANCISCO designed by Apple.
+                                                            Experimental fonts are used for headlines, titles, and
+                                                            subtitles.
+                                                            LO-RES family fonts were designed for Macintosh and are
+                                                            often used to create a
+                                                            computer-code like effect, even in printing.
+                                                        </p>
+                                                        <h2>Layout</h2>
+                                                        <p>Typical solutions for layout include the text being divided
+                                                            into different columns, the
+                                                            use of small margins, different font sizes and using bold,
+                                                            italic types and different
+                                                            colors for emphasis.
+                                                        </p>
+                                                        <h2>Inspiration</h2>
+                                                        <p>Graphic designer David Carson is the father of the so-called
+                                                            Grunge Typography originated
+                                                            in the 80s and 90s with the introduction of the Macintosh
+                                                            computer and characterized by
+                                                            the extensive use of dingbat fonts, strong, bold, and
+                                                            code-like fonts. The layout of the
+                                                            pages is often asymmetrical and experimental. Pages and
+                                                            fonts often appear dirty and
+                                                            stained with the occasional use of bold, vivid colors such
+                                                            as red and yellow. Vector
+                                                            illustrations, artistic photography are often used to create
+                                                            a particular effect.The style
+                                                            was popular in the music industry as it was used for album
+                                                            covers and concert
+                                                            announcements. Carson’s Ray Gun magazine has become the most
+                                                            iconic example of Grunge
+                                                            Typography.
+                                                        </p>
+
+                                                        <h2>Considerations</h2>
+                                                        <p>Grunge typography is a symbol of <q>everything goes</q> which
+                                                            gave me plenty of space to
+                                                            experiment with the layout and the fonts.The use of the grid
+                                                            system, however, is almost
+                                                            compulsory, as it is a common practice in modern and
+                                                            postmodern graphic design. After
+                                                            creating the grid, I've placed the content in a
+                                                            <q>chaotic</q> way since it is a
+                                                            characteristic of this style. I've set the right and top
+                                                            borders black to create an
+                                                            unusual, assymetric effect.</p>
+                                                           <p> I've used a variety of fonts, including a textured
+                                                            experimental font called Gesso (image 1) for headings and a
+                                                            code/typewriter-like font called Latin Modern Mono (image 2) to emphasize information. For the main text,
+                                                        I have used Gill Sans (image 3), a well-known font originally designed for the London Tube. As the use of urban-style elements are
+                                                        characteristics of Grunge typography, Gill Sans is a great match for this style.</p>
+                                                            <img style="display: block; margin-left: auto; margin-right: auto; width: 40%" src="https://www.fontshmonts.com/wp-content/uploads/2019/09/gesso-02.jpg" alt='' width="50%">
+                                                            <br>
+                                                            <img style="display: block; margin-left: auto; margin-right: auto; width: 40%" src="https://www.fontshmonts.com/wp-content/uploads/2020/01/latin-modern-mono-02.jpg">
+                                                            <br>
+                                                            <img style="display: block; margin-left: auto; margin-right: auto; width: 40%" src="http://blog.customink.com/wp-content/uploads/2017/01/Gill-Sans-896x1024.png" alt=''>
+                                                            <br>
+                                                            <p>The articles are split into columns
+                                                            and decorated with an extra bold red margin on the bottom.
+                                                            I've created a plumbob shape in
+                                                            Photoshop which is similar to the
+                                                            often hand-drawn illustrations found in these magazines.
+                                                            This style is characterised by
+                                                            the occassional use of color apart from black, grey, and
+                                                            white, therefore I've only used
+                                                            red to pop out from the context.</p>
+
+                                                        <img
+                                                            src="https://i0.wp.com/www.designplayground.it/wp-content/uploads/2010/06/rayguns8-e1276819128710.jpeg?w=500">
+                                                        <img
+                                                            src="https://i1.wp.com/www.designplayground.it/wp-content/uploads/2010/06/rayguns1-e1276818958644.jpeg?w=500">
+
+                                                        <h2>Sources</h2>
+                                                        <ol>
+                                                            <li><a href="https://www.theverge.com/2013/12/27/5247944/the-awl-history-of-grunge-typography"
+                                                                    target="_blank">Angst, imagination, and the Ray Gun
+                                                                    Effect: a history of grunge
+                                                                    typography</a></li>
+                                                            <li><a href="https://www.cba-design.it/en/insights/type-decade"
+                                                                    target="_blank">Design:
+                                                                    2010-2019: A decade in typography - CBA Italy</a>
+                                                            </li>
+                                                            <li><a href="https://www.toptal.com/designers/ui/typeface-history"
+                                                                    target="_blank">Lines
+                                                                    of Communication – A Typeface History (with
+                                                                    Infographic)</a></li>
+                                                            <li><a href="http://www.designplayground.it/2010/06/raygun-magazine/"
+                                                                    target="_blank">Ray
+                                                                    Gun Magazine,copertine di Chris Ashworth – Design
+                                                                    Playground</a></li>
+                                                            <li><a href="https://www.researchgate.net/publication/331889527_Typography_Inspiration_in_21st-Century_Social_and_Cultural_Roles_of_Modernist_Bauhaus_in_Graphic_Design"
+                                                                    target="_blank">Typography Inspiration in
+                                                                    21st-Century: Social and Cultural Roles of
+                                                                    Modernist Bauhaus in Graphic Design</a></li>
+                                                            <li><a href="https://issuu.com/feipusong3/docs/history_booklet"
+                                                                    target="_blank">Typography: late 20th century by
+                                                                    Fei3 - issuu</a></li>
+                                                        </ol>
+
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-futuristic" role="tabpanel"
+                                                        aria-labelledby="pills-futuristic-tab">
+                                                        <h1> 2030 - The Future </h1>
+                                                        <h3>~Progress will only be made if the digital aspires to be its
+                                                            own entity rather than a
+                                                            carbon copy of the physical, utilizing its own distinct
+                                                            characteristics.~</h3>
+
+                                                        <p>Despite the fact that letterforms compose every word we type
+                                                            and every sentence we make,
+                                                            they are frequently neglected. Almost everything we see,
+                                                            touch, read, buy, or sell
+                                                            contains typography. They are calligraphic hybrids with
+                                                            traces from ancient runes to Latin
+                                                            verse, the consequence of hundreds of years of discovery,
+                                                            discussion, and delegation.</p>
+                                                        <p> With the advancement of technology came the variable fonts
+                                                            we see today. These digital
+                                                            fonts come in an infinite number of typographic variations
+                                                            within a single font file, so
+                                                            you can adjust the width, height, angle and weight of the
+                                                            letterforms as you wish.</p>
+
+                                                        <p>The green color was chosen since it is expected that
+                                                            environmental concern would become
+                                                            more important in the future.Green color refers to efforts
+                                                            that in the production and
+                                                            marketing of products and services cause less harm to the
+                                                            environment. Furthermore, The
+                                                            Simmer Magazine's concept is the development of hues such as
+                                                            green, pink, and light
+                                                            yellow. The simplicity of futuristic design is combined with
+                                                            startling shapes. The broad
+                                                            attractiveness of a minimalist appearance is unmistakable.
+
+                                                        <h2> Typography </h2>
+
+                                                        <p>In the futuristic view, it is aimed to place the text in the
+                                                            middle of the page to ensure
+                                                            full readability of the user. This means focusing on the
+                                                            vertical dimension to wrap the
+                                                            text.<br>
+
+                                                            Therefore, the header is placed with 10 percent padding at
+                                                            the top, and 10 percent padding
+                                                            on the right and bottom. Secondly, the conspicuousness of
+                                                            the initials draws attention to
+                                                            the capitalization of the old newspapers and magazines.<br>
+
+                                                            In the content, a very minimalist and clear visual that
+                                                            increases readability was created
+                                                            by leaving long spaces between paragraphs. The text only
+                                                            takes up 40% of the area; By
+                                                            using padding:10em, long spaces between paragraphs are
+                                                            provided. Due to social media such
+                                                            as Twitter and Facebook, users have become accustomed to
+                                                            short texts. Readers may find
+                                                            long texts boring and time-consuming. Long spaces between
+                                                            paragraphs are aimed at making
+                                                            the reader read the text to the end without intimidating it.
+                                                        </p>
+
+                                                        <h4> Neogrey Regular Font, AlexandriaFLF Regular (Various, Sans
+                                                            Serif) </h4>
+
+                                                        <p>The popular, electronic look of the Neogrey regular font
+                                                            reflects a futuristic look. This
+                                                            font was used only when naming the author on the subhead
+                                                            background. It was prioritized
+                                                            that the reader should not have difficulty in reading the
+                                                            text. Neogrey font created a
+                                                            full reflection of the future with capital
+                                                            letters.<br>>Moreover, it is believed that
+                                                            simplicity will never change after 10 years, and Alexandria
+                                                            flf regular font was used for
+                                                            the content by us.</p>
+
+
+                                                        <h1> Sources </h1>
+                                                        <a
+                                                            href="https://archive.org/details/in.ernet.dli.2015.29158/page/n13/mode/2up">
+                                                            <li>https://archive.org/details/in.ernet.dli.2015.29158/page/n13/mode/2up
+                                                            </li>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end layout and typography--->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Markup and metadata
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>We have used general html tags for the markup of the articles in order to
+                                            create coherence
+                                            between our work and to make the CSS markup unified.
+                                            The elements we used are the main elements that appear in all of the
+                                            articles: headings,
+                                            paragraphs, quotes, links, tables, images. We have divided the articles into
+                                            four main classes:
+                                            header containing the title and additional information, subhead containing
+                                            the subtitle and
+                                            additional information, content containing the article itself and footer
+                                            containing additional
+                                            information. </p>
+                                        <p>The metadata viewer is hidden by default, so the articles can be read in full width. By clicking on the show metadata button, the metadata viewer widget appears on the left side and the container of the articles becomes smaller. The user is now able to browse the metadata information related to people, places and concepts in each article. When the user navigates to another article, the metadata content changes accordingly. The people,
+                                        places and contents tab contains the name of the related person, place, or concept; an optional description and a link to the relevant Wikipedia or social media pages. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-disclaimer" role="tabpanel"
+                        aria-labelledby="pills-disclaimer-tab">
+                        <h1>Disclaimer</h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>The Simmer Magazine is an end-of-course project for the <i>Information Modelling and
+                                        Web
+                                        Technologies</i> course held by Professor Fabio Vitali within the Digital
+                                    Humanities and Digital
+                                    Knowledge Master’s course at the University of Bologna. </p>
+                                <p>The aim of this project is to apply typographic and layout styles on text documents. The
+                                    criteria for
+                                    selecting documents are their length and complexity. They are not an alternative for
+                                    or a replacement
+                                    of their original locations:</p>
+                                <ol>
+                                    <li><a
+                                            href="https://venturebeat.com/2021/04/29/eas-laura-miele-making-games-is-hard-and-it-keeps-changing/">EA’s
+                                            Laura Miele: Making games is hard, and it keeps changing</a></li>
+
+                                    <li><a
+                                            href="https://www.metropolismag.com/architecture/sims-architecture-showusyourbuilds-gamers/">For
+                                            a
+                                            Community of Gamers, The Sims Is a Gateway to Architecture</a></li>
+                                    <li><a href="https://www.wired.com/story/sims-mods-black-creators-customization/">Inside
+                                            the World of
+                                            Young Black Sims Content Creators</a></li>
+                                    <li><a
+                                            href="https://www.theguardian.com/games/2019/oct/06/my-land-of-make-believe-life-after-the-sims-video-games-computers">My
+                                            land of make believe: life after The Sims</a></li>
+                                    <li><a href="http://gamestudies.org/0601/articles/griebel">Self-Portrayal in a
+                                            Simulated Life:
+                                            Projecting Personality and Values in The Sims 2</a></li>
+
+                                    <li><a href="https://www.wired.com/story/sims-game-psychology/">'The Sims' Made Me
+                                            Realize I'm Ready
+                                            for More In Life</a></li>
+                                    <li><a
+                                            href="https://www.thehindu.com/sci-tech/technology/electronic-arts-the-sims-20th-anniversary-feature-interview-with-lyndsay-pearson-and-mike-duke/article31388848.ece">'The
+                                            Sims' turns 20: Why the social simulation game is more culturally relevant
+                                            than ever</a></li>
+                                    <li><a
+                                            href="https://www.psychologytoday.com/us/articles/200311/the-sims-suburban-rhapsody">The
+                                            Sims:
+                                            Suburban Rhapsody</a></li>
+                                </ol>
+
+                                <p>&amp; All copyrights and related rights on the content remain with their original
+                                    owners. All
+                                    copyright and layout choices are 2021 Creative Commons Licence. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contacts" role="tabpanel" aria-labelledby="pills-contacts-tab">
+                        <h1>Contacts</h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Take a look at our <a href="https://github.com/thesimmer/thesimmermagazine">Github
+                                        Repository</a></p>
+                                <p>or check out the Digital Humanities and Digital Knowledge programme <a
+                                        href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge/">website.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-grunge" role="tabpanel" aria-labelledby="pills-grunge-tab">
+                        <h1>GRUNGE TYPOGRAPHY</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end navbar-->
+            <!--about-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-auto">
+                        <h1>Editors</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck" id="about">
+
+                <div class="card">
+                    <img src="assets/images/deniz1.png" class="card-img-top" alt="..."
+                        style="width: 150px; height: 150px;">
+                    <div class="card-body">
+                        <h6 class="card-title">Deniz Tural</h6>
+                        <p class="card-content">She holds a bachelor’s degree in History, and currently attending the
+                            international
+                            master’s degree DHDK.</p>
+                        <p>Editor of the first half of XX century and the 2030 typographic styles.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/giulia1.png" class="card-img-top" alt="..."
+                        style="width: 150px; height: 150px;">
+                    <div class="card-body">
+                        <h6 class="card-title">Giulia Massimino</h6>
+                        <p class="card-content">Born in Catania, 1993, graduated in Foreign Languages (both Bachelor and
+                            Master’s
+                            Degree) at the University of Urbino. She attended the second year of Digital Humanities and
+                            Digital
+                            Knowledge Master’s Degree course at the University of Bologna. She worked as a Project
+                            Manager in a
+                            Localization and Translation Agency. </p>
+                        <p>Editor of the before 1800 and second half of XX century typographic styles.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/szilvi1.png" class="card-img-top" alt="..."
+                        style="width: 150px; height: 150px;">
+                    <div class="card-body">
+                        <h6 class="card-title">Szilvia Baráth</h6>
+                        <p class="card-content">Currently attending the Digital Humanities and Digital Knowledge
+                            Master’s degree at
+                            the University of Bologna and is working as a language teacher. Her interests include
+                            cultures and
+                            languages which she studied during her Bachelor’s in English and American Studies at ELTE
+                            Budapest and at
+                            NOVA University Lisbon. Her main focus is the creation of tools for language learning and
+                            interactive
+                            content to facilitate socio-cultural education.</p>
+                        <p>Editor of XIX century and late XX century typographic styles.</p>
+                    </div>
+                </div>
+                <!--go home button-->
+                <button onclick="topFunction()" id="home" title="Go to top">Top</button>
+                <script>
+                    mybutton = document.getElementById("home");
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            mybutton.style.display = "block";
+                        } else {
+                            mybutton.style.display = "none";
+                        }
+                    }
+                    function topFunction() {
+                        document.body.scrollTop = 0; // For Safari
+                        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                    }</script>
+            </div>
+            <!-- scripts -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://kit.fontawesome.com/70065d05b7.js" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
+            <!-- for pinterest -->
+            <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+          <!---- <script type="text/javascript">
+                (function(o,q,c){var s=function(h){var e=c.pinit,m="?",a,i,f,b;f=[];b=[];var j={},g=o.createElement("IFRAME"),r=h.getAttribute(c.att.count)||false,n=h.getAttribute(c.att.layout) || "horizontal"; if (q.location.protocol === "https:") e = c.pinit_secure; f = h.href.split("?")[1].split("#")[0].split("&"); a = 0; for (i = f.length; a < i; a += 1) { b = f[a].split("="); j[b[0]] = b[1] } a = f = 0; for (i = c.vars.req.length; a < i; a += 1) { b = c.vars.req[a]; if (j[b]) { e = e + m + b + "=" + j[b]; m = "&" } f += 1 } if (j.media && j.media.indexOf("http") !== 0) f = 0; if (f === i) {a=0;
+                            for (i=c.vars.opt.length;a<i;a+=1){b=c.vars.opt[a]; if (j[b])e=e+m+b+"="+j[b]}e=e+ "&layout="+n; if(r!==false)e+="&count=1"; g.setAttribute("src", e); g.setAttribute("scrolling", "no"); g.allowTransparency = true; g.frameBorder = 0; g.style.border = "none"; g.style.width = c.layout[n].width + "px"; g.style.height = c.layout[n].height + "px"; h.parentNode.replaceChild(g, h)
+                        } else h.parentNode.removeChild(h)
+                    }, p = o.getElementsByTagName("A"), l, d, k = []; d = 0; for (l = p.length; d < l; d += 1)k.push(p[d]); d = 0; for (l = k.length; d < l; d += 1)k[d].href && k[d].href.indexOf(c.button) !==
+                        -1 && s(k[d])
+                })(document, window, { att: { layout: "count-layout", count:"always-show-count"}, pinit: "http://pinit-cdn.pinterest.com/pinit.html", pinit_secure: "https://assets.pinterest.com/pinit.html", button: "//pinterest.com/pin/create/button/?", vars: { req: ["url", "media"], opt: ["title", "description"] }, layout: { none: { width: 43, height: 20 }, vertical: { width: 43, height: 58 }, horizontal: { width: 90, height: 20 } } });
+            </script>-->
+            <script src="index.js"></script>
+                <!-- xmlhttp req -->
+                <script type="text/javascript">
+                    function loadPage(href)
+                    {
+                        var xmlhttp = new XMLHttpRequest();
+                        xmlhttp.open("GET", href, false);
+                        xmlhttp.send();
+                        return xmlhttp.responseText;
+                    }
+                </script>
+</body>
+
+</html>

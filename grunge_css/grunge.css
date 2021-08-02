@@ -1,0 +1,239 @@
+/*end of 20th and beginning of 21th century*/
+@font-face {
+  font-family: 'hvd_rowdyregular';
+  src: url(assets/fonts/HVD_Rowdy-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gessoregular';
+  src: url(assets/fonts/GESSO___-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latin_modern_mono10_regular';
+  src: url(assets/fonts/lmmono10-regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latin_modern_mono10_italic';
+  src: url(assets/fonts/lmmono10-italic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+#iframeHolder .wrap {
+  -webkit-display: -moz-inline-grid;  /*grids*/
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1px; /*whitespace between columns and rows*/
+  row-gap: 1px;
+  border-top: 30px solid #000 ; /*bold black border*/
+  margin:0;
+  background-image: url("assets/images/plumbob3.png"); /*bg img starting from the content-box from the left*/
+  background-color: #fff;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 0.6471%; /*5.5x8.5 inch aspect ratio used for USA magazines*/
+
+
+  }
+
+  /*grid areas for each main section*/
+  #iframeHolder .header { grid-area: 1 / 1 / 2 / 3; } /*top left*/
+  #iframeHolder .subhead { grid-area: 2 / 2 / 4 / 3; } /*left middle*/
+  #iframeHolder .content {column-count: 3; grid-area: 1 / 3 / 4 / 6; } /*divide text into further columns, right side*/
+  #iframeHolder .footer { grid-area: 4 / 2 / 3 / 3; } /*left part bottom*/
+
+
+
+#iframeHolder .header {
+font-family: 'gessoregular';
+font-size: xx-large;
+color: #000;
+float: left;
+width: 100vw; /*prevent title from overflowing into the text*/
+min-height: fit-content(20em); /*prevent title from overflowing into the text*/
+display: grid;
+grid-template-columns: 1fr minmax(1px, 20rem) 40ch; /*forty characters at max, prevent title from overflowing into the text size range*/
+margin: 0;
+padding: 0;
+border:0;
+}
+
+#iframeHolder .header h1 {
+margin: 0;
+padding: 0;
+border:0;
+}
+
+#iframeHolder .subhead {
+  display: grid;
+  text-align: justify;
+  align-self: center;
+  width: 20vw;  /*has to be small to fit more text content*/
+}
+#iframeHolder .subhead p {
+  font-family: 'latin_modern_mono10_regular', 'latin_modern_mono10_italic';
+  transform: rotate(-45deg); /*rotate text for decorative purposes*/
+ align-self: baseline; /*the text aligns itself to the baseline of the parent*/
+  display: grid;
+}
+
+ /*in some articles it's either the p or h3 marked up in the subhead (but they have the same role), make sure that each way it's transformed*/
+#iframeHolder .subhead h3 {
+  font-family: 'latin_modern_mono10_regular', 'latin_modern_mono10_italic';
+  transform: rotate(-45deg);
+  align-self: baseline;
+  font-size: 1em;
+  display: grid;
+  margin-top: 50%;
+  margin-left: 20%;
+  grid-template-columns: fit-content(200px) fit-content(200px); /*disaster prevention, text fits columns*/
+
+}
+#iframeHolder .subhead h4 {
+  font-family: 'hvd_rowdyregular';
+  writing-mode: vertical-rl; /*text appears vertical*/
+  font-size:x-large;
+  text-transform: uppercase;
+  margin-left: 20%; /*prevent h4 from messing with the titls by adding this distance bwn them*/
+  color: red; /*color pop*/
+  grid-template-columns: fit-content(200px) fit-content(200px); /*disaster prevention, text fits columns*/
+
+}
+
+#iframeHolder .content {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-right: 10px solid #000; /*border decoration*/
+  border-bottom: 200px solid red; /*end of article, decoration*/
+  padding-right: 10px;
+  padding-bottom: 5px;
+  grid-template-columns: fit-content(200px) fit-content(200px); /*disaster prevention, text fits columns*/
+  text-align: left;
+}
+
+#iframeHolder .content p {
+ padding-top: 20px; /*larger padding needed to not mess with the black border*/
+ font-size: 16px;
+}
+#iframeHolder .footer {
+  font-family: 'latin_modern_mono10_regular', 'latin_modern_mono10_italic';
+}
+#iframeHolder h2 {
+ font-family: 'hvd_rowdyregular';
+}
+
+#iframeHolder .content h3 {
+  font-family: 'hvd_rowdyregular';
+  font-size: x-large;
+}
+
+#iframeHolder h4 {
+  font-family: 'hvd_rowdyregular';
+  color: red;
+  font-size: large;
+
+}
+
+#iframeHolder p:first-of-type:first-letter {
+  font-family: 'hvd_rowdyregular';
+  float: left;
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+  color: red; /*initial letter decoration in the very first paragraph*/
+}
+
+#iframeHolder a {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: red;
+  text-decoration-color: red;
+  color: #000; /*customised links*/
+}
+
+#iframeHolder q {
+  font-family: 'latin_modern_mono10_regular', 'latin_modern_mono10_italic';
+  text-align: right; /*creates assymetric effect*/
+}
+
+#iframeHolder img {
+  padding: 1px;
+  width: 100%;
+  margin: 0;
+  border: none;
+  align-self: center;
+  object-fit: contain; /*fit imgs in the columns*/
+  filter: opacity(0.5);
+}
+
+#iframeHolder .figure { /*captions*/
+  float: center;
+  text-align: center;
+  font-size: smaller;
+  text-transform: uppercase;
+  text-indent: 0; /*otherwise position is strange*/
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#iframeHolder .figure p { /*captions text*/
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'latin_modern_mono10_regular' ;
+}
+
+
+#iframeHolder .figure p::first-letter {
+  font-family: 'latin_modern_mono10_regular';
+  border-right: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1px;
+  padding: 1px;
+  float:none; /*prevents from creating a drop cap out of first caption letter*/
+}
+
+#iframeHolder table {
+  table-layout: fixed;
+  width: 100%;
+  overflow-x: auto;
+  word-wrap: break-word; /*split the words at arbitrary points to prevent overflow.*/
+  font-family: 'latin_modern_mono10_regular';
+  font-size: x-small;
+}
+
+ #iframeHolder td, th {
+  width: auto;
+  height: auto;
+  border: 1px solid #ccc;
+  text-align: center;
+  }
+
+#iframeHolder .articlecopyright {
+  font-family: 'latin_modern_mono10_regular', 'latin_modern_mono10_italic';
+  font-size: large;
+  transform: rotate(-45deg);
+  display: grid;
+  text-align: justify;
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  align-self: center;
+  width: 20vw; /*unique class in an article, styled as subhead but diff place in the grid*/
+}
+
+#iframeHolder #top-img {
+ transform: rotate(+45deg);
+  display: grid;
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  align-self: center;
+  width: 20vw; /*unique class in an article, styled as subhead but diff place in the grid*/
+}

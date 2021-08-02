@@ -1,0 +1,134 @@
+
+/* Create three equal columns that floats next to each other */
+#iframeHolder .wrap {
+
+  background: rgb(244,241,234);
+  background: radial-gradient(circle, rgba(218, 237, 230,1) 0%, rgba(189, 222, 209, 1) 49%, rgba(116, 179, 155,1) 100%);
+}
+#iframeHolder img {
+  border-radius: 4px;
+  padding: 5px;
+  -webkit-filter:grayscale(90%) ;
+  filter: grayscale(100%);
+  width: 69%;
+}
+#iframeHolder #top-img {
+  width: 67%;
+}
+
+#iframeHolder #img-c {
+  width: 600px;
+  height: 450px;
+}
+#iframeHolder #img-d {
+  width: 600px;
+  height: 450px;
+
+}
+
+#iframeHolder #img-f {
+  width: 600px;
+  height: 450px;
+}
+#iframeHolder .figure {
+  float: center;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: smaller;
+  text-transform: uppercase;
+  text-indent: 0;
+  padding: 1px;
+  font-size: 0.5rem; 
+}
+#iframeHolder .content {
+  /*-webkit-column-count: 4; /* Chrome, Safari */
+  /*column-count: 4;
+  -webkit-column-gap: 10px; /* Chrome, Safari */
+  /*column-gap: 10px;
+  text-align: justify;*/
+  padding: 20px;
+  font-family: 'Baskervville', serif;
+  width:85%;
+  padding-left:20%;
+
+
+}
+
+#iframeHolder .header {
+
+  width: 80%;
+  margin-top: 3%;
+  align:center;
+  padding-left: 20%;
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 900;
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 72px;
+
+
+}
+
+#iframeHolder .subhead {
+text-transform: uppercase;
+font-family: 'Bodoni Moda', serif;
+border-right: none !important;
+padding: 12px 0 12px 0;
+margin: 5px;
+text-align: center;
+font-weight: 900;
+font-size: 20px;
+letter-spacing: 3px;
+
+}
+
+#iframeHolder .footer {
+  border-top: 1px dotted #2f2f2f;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: smaller;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 1000px) {
+ #iframeHolder .column {
+    width: 100%;
+  }
+}
+#iframeHolder h1 {
+
+  text-align: center;
+  color:#2f2f2f;
+}
+
+#iframeHolder h2 {
+
+  text-align: center;
+  font-weight:900;
+}
+
+#iframeHolder p {
+margin-top: 0;
+margin-bottom: 20px;
+color: #3b342c;
+letter-spacing: -1px;
+font-size: 18px;
+padding-right: 6px;
+}
+p::first-letter {
+  font-size: 160%;
+  color: #2f2f2f;
+}
+
+#iframeHolder a {
+  color: #000;
+  text-decoration: solid;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+#iframeHolder q {
+  font-weight: lighter;
+}

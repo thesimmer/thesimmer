@@ -1,0 +1,120 @@
+#iframeHolder .wrap {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+	text-align: center;
+	background-image: url("raimond-klavins-t_uYYTTXuW0-unsplash.jpg");
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*.logo {
+  animation: colorRotate 3s linear infinite;
+}*/
+
+/*@keyframes colorRotate {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}*/
+
+
+#iframeHolder h1 {
+  font-size: 72px;
+	background: -webkit-linear-gradient(#eee, #cc99ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: 'Sigmar One', cursive;
+	width: 90%;
+	padding-left: 18%;
+	padding-right: 4%;
+	padding-top: 3%;
+	padding-bottom: 1.5%;
+}
+/*p { font-size: 1.5rem;
+    font-family: 'RocknRoll One', sans-serif;}*/
+
+#iframeHolder h2 {
+	font-size: 40px;
+	background: -webkit-linear-gradient(#eee, #446ac9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+#iframeHolder .content {
+  text-align: center;
+  width: 90%;
+	padding-left: 20%;
+	padding-right: 5%;
+	align: center;
+  background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+  background-size: 200% auto;
+	font-family: 'RocknRoll One', sans-serif;
+	font-size: 1.5rem;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+#iframeHolder .subhead {
+	font-family: 'Chewy', cursive;
+	text-align: center;
+	font-size: 2rem;
+	width: 90%;
+	padding-left: 18%;
+	padding-right: 4%;
+  animation: colorRotate 6s linear 0s infinite;
+}
+#iframeHolder .footer {
+	font-family: 'RocknRoll One', sans-serif;
+	font-size: 0.8rem;
+	text-align: left;
+	color:  #3e065e;
+}
+
+#iframeHolder .img {
+	padding-left: 10%;
+	padding-bottom: 3%;
+	width: 60%;
+}
+
+
+
+@keyframes colorRotate {
+	from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
