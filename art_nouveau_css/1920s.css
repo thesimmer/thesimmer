@@ -1,0 +1,164 @@
+
+
+@font-face {
+    font-family: 'smart_frocks_nfregular';
+    src: url('assets/fonts/smartfrocksnf-webfont.woff2') format('woff2'),
+         url('assets/fonts/smartfrocksnf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oranienbaumregular';
+    src: url('oranienbaum-webfont.woff2') format('woff2'),
+         url('oranienbaum-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'federoregular';
+    src: url('federo-regular-webfont.woff2') format('woff2'),
+         url('federo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sanslight';
+    src: url('josefin-sans.light-webfont.woff2') format('woff2'),
+         url('josefin-sans.light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Create three equal columns that floats next to each other */
+#iframeHolder .wrap {
+  padding: 10px 40px 20px 70px;
+  box-sizing: content-box;
+}
+
+#iframeHolder img {
+  border-radius: 4px;
+  width: 100%;
+  border: 5px solid #555;
+  border-radius: 50%;
+}
+
+#iframeHolder .figure {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  border: 5px solid #555;
+  border-radius: 50%;
+}
+
+#iframeHolder .content {
+  -webkit-column-count: 2; /* Chrome, Safari */
+  column-count: 2;
+  -webkit-column-gap: 30px; /* Chrome, Safari */
+  column-gap: 30px;
+  text-align: justify;
+  padding: 50px;
+  background-color: #f2e394;
+  margin: auto;
+}
+
+#iframeHolder .content p {
+  line-height: 2em;
+  font-family:'josefin_sanslight';
+  color: #1a1e2f;
+  letter-spacing: -1px;
+  font-size: 20px;
+  text-transform: none;
+}
+
+#iframeHolder .subhead {
+  margin: 40px 80px 0px 0px;
+  position: static;
+  background-image: url("assets/images/artno.jpg");
+  background-repeat: no-repeat;
+}
+
+#iframeHolder .header h1 {
+  position: absolute;
+  margin: 100px 800px;
+  width: 90px;
+  height: 100px;
+  font-size: 80px;
+  font-family: 'smart_frocks_nfregular';
+  display: block;
+}
+
+#iframeHolder .subhead {
+text-transform: uppercase;
+padding: 1600px 0 10px 0;
+margin: 5px;
+text-align: center;
+font-weight: 900;
+font-size: 20px;
+letter-spacing: 3px;
+}
+
+#iframeHolder .subhead p {
+  background-color: #f2e394;
+  background-repeat: repeat-x;
+  border: 3px;
+  border-radius: 12px;
+}
+
+#iframeHolder .subhead h4 {
+  background-image: url(../assets/images/art.jpg);
+  background-repeat: repeat-x;
+  color: #c83349;
+  border: 3px;
+  border-radius: 12px;
+}
+
+#iframeHolder .footer {
+  border-top: 1px solid #2f2f2f;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: smaller;
+  background-image: url('../assets/images/plumbob.png');
+}
+
+#iframeHolder .logo {
+  float: right;
+  width: 100px;
+  height: 50px;
+  margin: 0px -100px;
+}
+
+
+
+#iframeHolder h2, h3 {
+  font-family: 'smart_frocks_nfregular';
+  text-align: center;
+  border-bottom: thick double ;
+  text-transform: uppercase;
+  color: #c83349;
+}
+
+
+#iframeHolder p::first-letter {
+  font-size: 180%;
+  color: #c83349;
+  font-family: 'oranienbaumregular';
+}
+
+#iframeHolder a {
+  font-family: 'smart_frocks_nfregular';
+  color: #000;
+  text-decoration: solid;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+#iframeHolder q {
+  font-weight: lighter;
+}
