@@ -7,7 +7,7 @@ const getMetaTemplate = (list = []) => `
 <ul class="meta__div_content_ul">
 ${list.map(opts => getMetaListElementHTML(opts)).join("")}
 </ul>
-`; //  With the metadata viewer we change different html codes in the existing html. this is the template neede when we render metadata content. Otherwise, this code won’t run. The code is actually the html code, it is made into the template
+`; //  With the metadata viewer we change different html codes in the existing html. this is the template needed when we render metadata content. Otherwise, this code won’t run. The code is actually the html code, it is made into the template
 
 const getMetaListElementHTML = ({ name, description, link } = {}) => `
 <li>
@@ -25,7 +25,7 @@ const getMetaListElementHTML = ({ name, description, link } = {}) => `
 /**
  * LOGIC
  */
-(function() {    //meta type= 3 types, people, places, concepts = these are the keys of this dict
+(function() {    //meta type= 3 types, people, places, concepts = these are the keys of this array
   const META_TYPE = {
     PEOPLE: "people",
     PLACES: "places",
@@ -55,7 +55,7 @@ const getMetaListElementHTML = ({ name, description, link } = {}) => `
           type: ISSUE_TYPE.SOCIETY, //society issues
           index: 1 //no 2 article of society issues
         },
-        meta: { //dict
+        meta: { //array
           people: [ //key
             {
               name: "Will Wright",
