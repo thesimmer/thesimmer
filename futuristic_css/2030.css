@@ -70,6 +70,7 @@ text-transform: uppercase;
 font-family: 'neogreyregular';
 font-weight: bold;
 background-image: url('../assets/images/dum.jpeg');
+background-attachment: fixed;
 
 }
 
