@@ -1,16 +1,15 @@
 ### Hi there 👋
 
-<!--
-**thesimmer/thesimmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# simmermagazine
+The Simmer Magazine
 
-Here are some ideas to get you started:
+This is the Github Repository of The Simmer Magazine. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The Simmer Magazine is an end-of-course project for the Information Modelling and Web Technologies course held by Professor Fabio Vitali within the Digital Humanities and Digital Knowledge Master’s course at the University of Bologna. 
+
+You can access the project here: https://simmermag.netlify.app/
+
+Created by three students of the course under the name The Sims Teams:
+:woman_student:Deniz Tural,
+:woman_student:Giulia Massimino,
+:woman_student:Szilvia Baráth.
